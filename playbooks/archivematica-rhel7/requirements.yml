@@ -1,0 +1,22 @@
+---
+
+- src: "https://github.com/elastic/ansible-elasticsearch"
+  version: "master"
+  name: "elasticsearch"
+
+- src: "https://github.com/geerlingguy/ansible-role-repo-epel"
+  version: "master"
+  name: "epel"
+  
+# need am-deps role
+
+# gearman
+- src: "https://github.com/jhsimpson/ansible-gearman.git"
+  version: "master"
+  name: "gearman"
+  
+- src: "https://github.com/jhsimpson/ansible-role-mariadb"
+  version: "master"
+  name: mariadb
+
+
